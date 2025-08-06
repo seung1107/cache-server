@@ -142,3 +142,5 @@ app.listen(PORT, () => {
     console.log(`   - 커스텀 캐시: GET /cache-test/max-age/3600`);
     console.log(`   - 쿼리 파라미터: GET /cache-test?maxAge=86400`);
 });
+
+module.exports = app;
